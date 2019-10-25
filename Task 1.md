@@ -53,4 +53,4 @@
 <img src="https://latex.codecogs.com/svg.latex?5.2.){\;}\boxed{\lambda{=-\frac{10}{3}}}:a_{n+1}=-3\stackrel{\text{4.)}}{\Rightarrow}\lim_{n\rightarrow\infty}{a_n=-3}">.
 
 
-<img src="https://latex.codecogs.com/svg.latex?5.3.){\;}\boxed{\lambda{\in(-4,-\frac{10}{3})}:a_{n+1}-(-3)>0"> и <img src="https://latex.codecogs.com/svg.latex?\{a_n\}"> е растяща <img src="https://latex.codecogs.com/svg.latex?\Rightarrow\lim_{n\rightarrow\infty}a_n=-1"> (*от 3.)*).
+<img src="https://latex.codecogs.com/svg.latex?5.3.){\;}\boxed{\lambda\in(-4,-\frac{10}{3})}:a_{n+1}-(-3)>0"> и <img src="https://latex.codecogs.com/svg.latex?\{a_n\}"> е растяща <img src="https://latex.codecogs.com/svg.latex?\Rightarrow\lim_{n\rightarrow\infty}a_n=-1"> (*от 3.)*).
