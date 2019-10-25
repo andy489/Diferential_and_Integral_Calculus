@@ -57,4 +57,4 @@
 
 <img src="https://latex.codecogs.com/svg.latex?6.){\;}\boxed{\lambda=-4}:a_{n+1}=-1\stackrel{\text{2.)}}{\Rightarrow}lim_{n\rightarrow\infty}a_n=-1">.
 
-<img src="https://latex.codecogs.com/svg.latex?7.){\;}\boxed{\lambda\in(-\infty{;}-4)}:a_{n+1-(-3)>0}">
+<img src="https://latex.codecogs.com/svg.latex?7.){\;}\boxed{\lambda\in(-\infty{;}-4)}:a_{n+1}-(-3)>0">
