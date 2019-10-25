@@ -77,7 +77,7 @@ void info()
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15);
 	cout << "Our recurent sequence is:\n\n";
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 14);
-	cout << "             -2.a(n)-9\na(n+1) =  _______________ , a(1)=lambda\n          a(n)^2+7a(n)+13\n\n";
+	cout << "           -2.a(n)-9\na(n+1)= _______________,a(1)=lambda\n        a(n)^2+7a(n)+13\n\n";
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15);
 	cout << "E - explore\nI = info\nX - end\n\n";
 }
