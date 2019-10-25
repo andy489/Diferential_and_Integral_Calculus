@@ -18,3 +18,9 @@
 <img src="https://latex.codecogs.com/svg.latex?\Leftrightarrow{l^2(l+1)+6l(l+1)+9(l+1)=0}\Leftrightarrow{(l^2+6l+9)(l+1)=0}\Leftrightarrow{(l+3)^2(l+1)=0}">
 
 ![](https://github.com/andy489/Data_Structures_and_Algorithms_CPP/blob/master/assets/DIC%2001.png)
+
+<img src="https://latex.codecogs.com/svg.latex?1.){\;}\boxed{\lambda\in(-1;\infty)}"> 
+
+<img src="https://latex.codecogs.com/svg.latex?a_{n+1}-(-1)=\frac{-2a_a-9}{a_n^2+7a_n+13}+1=\frac{-2a_n-9+a_n^2+7a_n+13}{a_n^2+7a_n+13}=">
+
+<img src="https://latex.codecogs.com/svg.latex?=\frac{a_n^2+5a_n+4}{a_n^2+7_n+13}=\frac{(a_n+4)(a_n+1)}{denom.>0}\Rightarrow{a_{n+1>-1}}"> и намалява, т.е. (*ограничена отдолу и намаляваща*) <img src="https://latex.codecogs.com/svg.latex?\Rightarrow{\lim_{n\rightarrow\infty}a_n=-1}">.
