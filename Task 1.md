@@ -58,3 +58,112 @@
 <img src="https://latex.codecogs.com/svg.latex?6.){\;}\boxed{\lambda=-4}:a_{n+1}=-1\stackrel{\text{2.)}}{\Rightarrow}\lim_{n\rightarrow\infty}a_n=-1">.
 
 <img src="https://latex.codecogs.com/svg.latex?7.){\;}\boxed{\lambda\in(-\infty{;}-4)}:a_{n+1}-(-3)>0">, т.е. прескача <img src="https://latex.codecogs.com/svg.latex?-3"> и <img src="https://latex.codecogs.com/svg.latex?\{a_n\}"> е растяща <img src="https://latex.codecogs.com/svg.latex?\Rightarrow{\lim_{n\rightarrow\infty}{a_n}=-1}">.
+
+**Окончателно:**
+
+<img src="https://latex.codecogs.com/svg.latex?\lim_{n\rightarrow\infty}a_n=\begin{cases}-1,{\;}a_1=\lambda\in(-\infty{;}-\frac{10}{3})\cup(-3;+\infty)\\-3,{\;}a_1=\lambda\in[-\frac{10}{3};-3]\end{cases}}">
+
+```cpp
+#include <iostream>
+#include <sstream>
+#include <windows.h>
+#include <climits>
+using namespace std;
+#define eps 0.000001
+double lambda;
+
+void info()
+{
+	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15);
+	cout << "Our recurent sequence is:\n\n";
+	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 14);
+	cout << "             -2.a(n)-9\na(n+1) =  _______________ , a(1)=lambda\n          a(n)^2+7a(n)+13\n\n";
+	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15);
+	cout << "E - explore\nI = info\nX - end\n\n";
+}
+
+double calc(int n)
+{
+	double res(lambda);
+	while (n > 1)
+	{
+		res = (-2 * res - 9) / (res * res + 7 * res + 13);
+		n--;
+	}
+	return res;
+}
+
+void explore()
+{
+	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15);
+	cout << "Enter first element of the sequence ";
+	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15);
+	cout << "(lambda): ";
+	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 7);
+	cin >> lambda;
+	cin.ignore();
+
+	if (lambda<-10 / 3.0 || lambda>-3)
+	{
+		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 14);
+		cout << "limit is -1\n";
+	}
+	else
+	{
+		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 14);
+		cout << "limit is -3\n";
+	}
+	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15);
+	cout << "Enter several indeces of the elements you want (with space delimeter):\n";
+	string input;
+	getline(cin, input);
+	istringstream istr(input);
+	int n;
+	while (istr >> n)
+	{
+		if (n <= 0)
+		{
+			cout << n << "is invalid index\n";
+		}
+		else
+		{
+			cout << n << "-th element is: " << calc(n) << '\n';
+		}
+	}
+	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 7);
+	return;
+}
+
+int main()
+{
+	info();
+
+	char command;
+	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 11);
+	cout << "Enter command: ";
+	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 7);
+	cin >> command;
+	cin.ignore();
+	while (command!='x' && command!='X')
+	{
+		if (command=='x'||command=='X')
+		{
+			break;
+		}
+		else if (command=='E'||command=='e')
+		{
+			explore();
+		}
+		else if (command == 'I' || command == 'i')
+		{
+			info();
+		}
+		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 11);
+		cout << "Enter command: ";
+		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 7);
+		cin >> command;
+		cin.ignore();
+	}
+	return 0;
+}
+```
