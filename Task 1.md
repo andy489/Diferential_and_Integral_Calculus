@@ -55,6 +55,6 @@
 
 <img src="https://latex.codecogs.com/svg.latex?5.3.){\;}\boxed{\lambda\in(-4,-\frac{10}{3})}:a_{n+1}-(-3)>0"> и <img src="https://latex.codecogs.com/svg.latex?\{a_n\}"> е растяща <img src="https://latex.codecogs.com/svg.latex?\Rightarrow\lim_{n\rightarrow\infty}a_n=-1"> (*от 3.)*).
 
-<img src="https://latex.codecogs.com/svg.latex?6.){\;}\boxed{\lambda=-4}:a_{n+1}=-1\stackrel{\text{2.)}}{\Rightarrow}lim_{n\rightarrow\infty}a_n=-1">.
+<img src="https://latex.codecogs.com/svg.latex?6.){\;}\boxed{\lambda=-4}:a_{n+1}=-1\stackrel{\text{2.)}}{\Rightarrow}\lim_{n\rightarrow\infty}a_n=-1">.
 
-<img src="https://latex.codecogs.com/svg.latex?7.){\;}\boxed{\lambda\in(-\infty{;}-4)}:a_{n+1}-(-3)>0">
+<img src="https://latex.codecogs.com/svg.latex?7.){\;}\boxed{\lambda\in(-\infty{;}-4)}:a_{n+1}-(-3)>0">, т.е. прескача <img src="https://latex.codecogs.com/svg.latex?-3"> и <img src="https://latex.codecogs.com/svg.latex?\{a_n\}"> е растяща <img src="https://latex.codecogs.com/svg.latex?\Rightarrow{\lim_{n\rightarrow\infty}{a_n}=-1}">.
