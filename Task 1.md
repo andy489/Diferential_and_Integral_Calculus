@@ -18,7 +18,7 @@
 <img src="https://latex.codecogs.com/svg.latex?\Leftrightarrow{l^2(l+1)+6l(l+1)+9(l+1)=0}\Leftrightarrow{(l^2+6l+9)(l+1)=0}\Leftrightarrow{(l+3)^2(l+1)=0}">
 <br><br>
 <img src="https://latex.codecogs.com/svg.latex?a_{n+1}-a_n=\frac{-(a_n+1)(a_n+3)^2}{a_n^2+7a_n+13}">
-
+<br><br>
 <img src="https://latex.codecogs.com/svg.latex?sign(a_{n+1}-a_n)">
 
 ![](https://github.com/andy489/Data_Structures_and_Algorithms_CPP/blob/master/assets/DIC%2001.png)
