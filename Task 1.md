@@ -16,9 +16,9 @@
 <img src="https://latex.codecogs.com/svg.latex?l^3+7l^2+13l=-2l-9\Leftrightarrow{l^3+7l^2+15l+9=0}\Leftrightarrow{l^3+l^2+6l^2+6l+9l+9=0}">
 
 <img src="https://latex.codecogs.com/svg.latex?\Leftrightarrow{l^2(l+1)+6l(l+1)+9(l+1)=0}\Leftrightarrow{(l^2+6l+9)(l+1)=0}\Leftrightarrow{(l+3)^2(l+1)=0}">
-<br><br>
+<br>
 <img src="https://latex.codecogs.com/svg.latex?a_{n+1}-a_n=\frac{-(a_n+1)(a_n+3)^2}{a_n^2+7a_n+13}">
-<br><br>
+<br>
 <img src="https://latex.codecogs.com/svg.latex?sign(a_{n+1}-a_n)">
 
 ![](https://github.com/andy489/Data_Structures_and_Algorithms_CPP/blob/master/assets/DIC%2001.png)
@@ -28,3 +28,7 @@
 <img src="https://latex.codecogs.com/svg.latex?a_{n+1}-(-1)=\frac{-2a_a-9}{a_n^2+7a_n+13}+1=\frac{-2a_n-9+a_n^2+7a_n+13}{a_n^2+7a_n+13}=">
 
 <img src="https://latex.codecogs.com/svg.latex?=\frac{a_n^2+5a_n+4}{a_n^2+7_n+13}=\frac{(a_n+4)(a_n+1)}{denom.>0}\Rightarrow{a_{n+1>-1}}"> и намалява, т.е. (*ограничена отдолу и намаляваща*) <img src="https://latex.codecogs.com/svg.latex?\Rightarrow{\lim_{n\rightarrow\infty}a_n=-1}">.
+
+<img src="https://latex.codecogs.com/svg.latex?1.){\;}\boxed{\lambda{=-1}}"> 
+
+<img src="https://latex.codecogs.com/svg.latex?a_{n+1}-a_n=0\Rightarrowa_{n+1}=a_n=\cdots{=}a_1=-1\Rightarrow\lim_{n\rightarrow\infty}a_n=-1">.
