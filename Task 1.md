@@ -67,9 +67,9 @@
 #include <iostream>
 #include <sstream>
 #include <windows.h>
+#include <iomanip>
 #include <climits>
 using namespace std;
-#define eps 0.000001
 double lambda;
 
 void info()
@@ -127,7 +127,7 @@ void explore()
 		}
 		else
 		{
-			cout << n << "-th element is: " << calc(n) << '\n';
+			cout << n << "-th element is: " << setprecision(9) << calc(n) << '\n';
 		}
 	}
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 7);
@@ -144,13 +144,13 @@ int main()
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 7);
 	cin >> command;
 	cin.ignore();
-	while (command!='x' && command!='X')
+	while (command != 'x' && command != 'X')
 	{
-		if (command=='x'||command=='X')
+		if (command == 'x' || command == 'X')
 		{
 			break;
 		}
-		else if (command=='E'||command=='e')
+		else if (command == 'E' || command == 'e')
 		{
 			explore();
 		}
