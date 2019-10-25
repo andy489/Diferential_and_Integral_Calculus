@@ -61,7 +61,7 @@
 
 **Окончателно:**
 
-<img src="https://latex.codecogs.com/svg.latex?\lim_{n\rightarrow\infty}a_n=\begin{cases}-1,{\;}a_1=\lambda\in(-\infty{;}-\frac{10}{3})\cup(-3;+\infty)\\-3,{\;}a_1=\lambda\in[-\frac{10}{3};-3]\end{cases}}">
+<img src="https://latex.codecogs.com/svg.latex?\lim_{n\rightarrow\infty}a_n=\begin{cases}-1,{\;}a_1=\lambda\in(-\infty{;}-\frac{10}{3})\cup(-3;+\infty)\\-3,{\;}a_1=\lambda\in{[-\frac{10}{3};-3]}\end{cases}}">
 
 ```cpp
 #include <iostream>
