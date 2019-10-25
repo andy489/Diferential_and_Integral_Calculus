@@ -29,6 +29,10 @@
 
 <img src="https://latex.codecogs.com/svg.latex?=\frac{a_n^2+5a_n+4}{a_n^2+7_n+13}=\frac{(a_n+4)(a_n+1)}{denom.>0}\Rightarrow{a_{n+1>-1}}"> и намалява, т.е. (*ограничена отдолу и намаляваща*) <img src="https://latex.codecogs.com/svg.latex?\Rightarrow{\lim_{n\rightarrow\infty}a_n=-1}">.
 
-<img src="https://latex.codecogs.com/svg.latex?1.){\;}\boxed{\lambda{=-1}}"> 
+<img src="https://latex.codecogs.com/svg.latex?2.){\;}\boxed{\lambda{=-1}}"> 
 
 <img src="https://latex.codecogs.com/svg.latex?a_{n+1}-a_n=0\Rightarrowa_{n+1}=a_n=\cdots{=}a_1=-1\Rightarrow\lim_{n\rightarrow\infty}a_n=-1">.
+
+<img src="https://latex.codecogs.com/svg.latex?3.){\;}\boxed{\lambda\in(-3;-1)}"> 
+
+В този интервал редицата е растяща и съответно ще искаме да проверим дали ако сме взели първи член <img src="https://latex.codecogs.com/svg.latex?a_1=\lambda"> от този интервал, то за някое достатъчно голямо <img src="https://latex.codecogs.com/svg.latex?n:a_n"> ще „прескочи“ кандидата за граница отдясно <img src="https://latex.codecogs.com/svg.latex?n:-1">. Ако това не се случи, то тя ще е растяща и ограничена отгоре от <img src="https://latex.codecogs.com/svg.latex?n:-1">, а ако това се случи, тя ще е намаляваща и ограничена отдолу, т.е. при всички възможни сценарии ще има граница <img src="https://latex.codecogs.com/svg.latex?\lim_{n\rightarrow\infty}a_n=-1">.
