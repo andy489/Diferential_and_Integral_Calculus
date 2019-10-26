@@ -161,9 +161,7 @@ int main()
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 11);
 	S:cout << "Enter command: ";
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 7);
-	cin >> command;
-	cin.clear();
-	cin.ignore();
+	getline(cin,command);
 	while (command != "x" && command != "X")
 	{
 		if (command == "x" || command == "X")
