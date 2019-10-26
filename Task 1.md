@@ -109,12 +109,11 @@ void explore()
 	cout << "(lambda): ";
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 7);
 START:string lambda;
-	cin >> lambda;
-	cin.ignore();
+	getline(cin, lambda);
 	long long lam;
 	if (!isNumber(lambda))
 	{
-		cout << "Please enter a correct lambda value:\n";
+		cout << "Please enter a correct lambda value: ";
 		goto START;
 	}
 	else
