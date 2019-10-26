@@ -68,9 +68,10 @@
 #include <sstream>
 #include <windows.h>
 #include <iomanip>
-#include <climits>
+#include <limits>
+#include <regex>
 using namespace std;
-double lambda;
+string lambda; long long lam;
 
 void info()
 {
@@ -84,13 +85,20 @@ void info()
 
 double calc(int n)
 {
-	double res(lambda);
+	double res(lam);
 	while (n > 1)
 	{
 		res = (-2 * res - 9) / (res * res + 7 * res + 13);
 		n--;
 	}
 	return res;
+}
+
+bool isNumber(string x) 
+{
+	regex e("^-?\\d+");
+	if (regex_match(x, e)) return true;
+	else return false;
 }
 
 void explore()
@@ -100,10 +108,21 @@ void explore()
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15);
 	cout << "(lambda): ";
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 7);
+START:string lambda;
 	cin >> lambda;
 	cin.ignore();
+	long long lam;
+	if (!isNumber(lambda))
+	{
+		cout << "Please enter a correct lambda value:\n";
+		goto START;
+	}
+	else
+	{
+		lam = stoll(lambda);
+	}
 
-	if (lambda<-10 / 3.0 || lambda>-3)
+	if (lam<-10 / 3.0 || lam>-3)
 	{
 		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 14);
 		cout << "limit is -1\n";
@@ -138,25 +157,30 @@ int main()
 {
 	info();
 
-	char command;
+	string command;
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 11);
-	cout << "Enter command: ";
+	S:cout << "Enter command: ";
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 7);
 	cin >> command;
+	cin.clear();
 	cin.ignore();
-	while (command != 'x' && command != 'X')
+	while (command != "x" && command != "X")
 	{
-		if (command == 'x' || command == 'X')
+		if (command == "x" || command == "X")
 		{
 			break;
 		}
-		else if (command == 'E' || command == 'e')
+		else if (command == "E" || command == "e")
 		{
 			explore();
 		}
-		else if (command == 'I' || command == 'i')
+		else if (command == "I" || command == "i")
 		{
 			info();
+		}
+		else
+		{
+			goto S;
 		}
 		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 11);
 		cout << "Enter command: ";
