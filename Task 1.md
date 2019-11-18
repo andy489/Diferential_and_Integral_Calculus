@@ -31,7 +31,7 @@
 
 <img src="https://latex.codecogs.com/svg.latex?2.){\;}\boxed{\lambda{=-1}}"> 
 
-<img src="https://latex.codecogs.com/svg.latex?a_{n+1}-a_n=0\Rightarrowa_{n+1}=a_n=\cdots{=}a_1=-1\Rightarrow\lim_{n\rightarrow\infty}a_n=-1">.
+<img src="https://latex.codecogs.com/svg.latex?a_{n+1}-a_n=0\Rightarrow{a_{n+1}}=a_n=\cdots{=}a_1=-1\Rightarrow\lim_{n\rightarrow\infty}a_n=-1">.
 
 <img src="https://latex.codecogs.com/svg.latex?3.){\;}\boxed{\lambda\in(-3;-1)}"> 
 
