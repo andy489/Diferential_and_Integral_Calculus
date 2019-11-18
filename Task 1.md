@@ -39,7 +39,7 @@
 
 <img src="https://latex.codecogs.com/svg.latex?4.){\;}\boxed{\lambda{=-3}}"> 
 
-<img src="https://latex.codecogs.com/svg.latex?a_{n+1}-a_n=0\Rightarrowa_{n+1}=a_n=\cdots{=a_1}=\lambda=-3\Rightarrow\lim_{n\rightarrow\infty}a_n=-3">.
+<img src="https://latex.codecogs.com/svg.latex?a_{n+1}-a_n=0\Rightarrow{a_{n+1}}=a_n=\cdots{=a_1}=\lambda=-3\Rightarrow\lim_{n\rightarrow\infty}a_n=-3">.
 
 ![](https://github.com/andy489/Data_Structures_and_Algorithms_CPP/blob/master/assets/DIC%2002.png)
 
