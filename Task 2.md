@@ -21,7 +21,7 @@
 <img src="https://latex.codecogs.com/svg.latex?\lim_{x\rightarrow{\pm{\infty}}}f(x)=\lim_{x\rightarrow{\pm{\infty}}"> <img src="https://latex.codecogs.com/svg.latex?\frac{\sqrt{1+|x+2|}}{1-|x|}\sim{\frac{\sqrt{x}}{-|x|}}\sim{-0}">.
 
 <img src="https://latex.codecogs.com/svg.latex?\lim_{x\rightarrow{{-1^-}}}f(x)\sim{\frac{\sqrt{2}}{-0}}\sim{-\infty}">; 
-<img src="https://latex.codecogs.com/svg.latex?\lim_{x\rightarrow{{-1^+}}}f(x)\sim{\frac{\sqrt{2}}{+0}}\sim{+\infty}">
+<img src="https://latex.codecogs.com/svg.latex?\lim_{x\rightarrow{{-1^+}}}f(x)\sim{\frac{\sqrt{2}}{+0}}\sim{+\infty}">.
 
 <img src="https://latex.codecogs.com/svg.latex?\lim_{x\rightarrow{{1^-}}}f(x)\sim{\frac{\sqrt{2}}{+0}}\sim{+\infty}">;
 <img src="https://latex.codecogs.com/svg.latex?\lim_{x\rightarrow{{1^+}}}f(x)\sim{\frac{\sqrt{2}}{-0}}\sim{-\infty}">.
