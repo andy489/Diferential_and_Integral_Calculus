@@ -53,3 +53,8 @@
 <img src="https://latex.codecogs.com/svg.latex?\underline{x\in{(1,+\infty)}}:f'(x)=\frac{x+7}{2(1-x)^2\sqrt{x+3}}>0\Rightarrow{f(x)}"><br>е растяща в <img src="https://latex.codecogs.com/svg.latex?(1,+\infty)">.
 
 ![](https://github.com/andy489/Data_Structures_and_Algorithms_CPP/blob/master/assets/Graphic%2004.png)
+
+<img src="https://latex.codecogs.com/svg.latex?\boxed{6.}"> Вдлъбнатост/изпъкналост на функцията <img src="https://latex.codecogs.com/svg.latex?f(x)"> (знак на <img src="https://latex.codecogs.com/svg.latex?f''(x)">):<br>
+
+<img src="https://latex.codecogs.com/svg.latex?\underline{x\in{(-\infty{,-2})}}:f''(x)=-\frac{1}{2}.\bigg(\frac{1}{(-x-1)^{\frac{3}{2}}}\bigg)'=\\=-\frac{1}{2}.\bigg(\frac{-1'.(-x-1)^{\frac{3}{2}}-1\big((-x-1)^{\frac{3}{2}}\big)'}{-(x+1)^3}\bigg)=-\frac{1}{2}.(-1).\frac{3}{2}\frac{(-x-1)^{\frac{{3}{2}-1}.(-x-1)'}{-(x+1)^3}=\\=\frac{3}{4}.\frac{1}{(-x-1)^{\frac{5}{2}}}.(-1)=-\frac{3}{4}.\frac{1}{(-x-1)^{\frac{5}{2}}}<0\Rightarrow{f(x)}"><br>е вдлъбната в <img src="https://latex.codecogs.com/svg.latex?(-\infty{,-2})">.
+
