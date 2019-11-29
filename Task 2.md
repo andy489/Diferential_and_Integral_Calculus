@@ -74,12 +74,18 @@
 
 <img src="https://latex.codecogs.com/svg.latex?f(0)=\sqrt{3}"> и <img src="https://latex.codecogs.com/svg.latex?0"> e инфлексна точка, тъй като <img src="https://latex.codecogs.com/svg.latex?f'(x)"> сменя знака си в <img src="https://latex.codecogs.com/svg.latex?x_0=0">.
 
-Правата с уравнение <img src="https://latex.codecogs.com/svg.latex?y=f(a)+f'(a)(x-a)"> e допирателна към <img src="https://latex.codecogs.com/svg.latex?\Gamma_{f(x)}">  в точката <img src="https://latex.codecogs.com/svg.latex?\big(a,f(a)\big)">.
+Правата с уравнение <img src="https://latex.codecogs.com/svg.latex?y=f(a)+f'(a)(x-a)"> e допирателна към <img src="https://latex.codecogs.com/svg.latex?\Gamma_{f(x)}"> в точката <img src="https://latex.codecogs.com/svg.latex?\big(a,f(a)\big)">.
 
-За <img src="https://latex.codecogs.com/svg.latex?a=0^-">, т.е. т.<img src="https://latex.codecogs.com/svg.latex?(0^-,\sqrt{3})"> имаме (от т.5): <img src="https://latex.codecogs.com/svg.latex?y=f(0)+\frac{-0-5}{2\sqrt{0+3}(0+1)^2}.(x-0)=\sqrt{3}-\frac{5}{2\sqrt{3}}x=\sqrt{3}=\frac{5\sqrt{3}}{6}x">. Аналогично за <img src="https://latex.codecogs.com/svg.latex?a=0^+">, т.е. т.<img src="https://latex.codecogs.com/svg.latex?(0^+,\sqrt{3})">:<br><img src="https://latex.codecogs.com/svg.latex?y=f(0)+\frac{0+7}{2(1-0)^2\sqrt{0+3}}.(x-0)=\sqrt{3}+\frac{7}{2\sqrt{3}}x=\sqrt{3}+\frac{7\sqrt{3}}{6}x">.
+За <img src="https://latex.codecogs.com/svg.latex?a=0^-">, т.е. т.<img src="https://latex.codecogs.com/svg.latex?(0^-,\sqrt{3})"> имаме (от т.5): 
+
+<img src="https://latex.codecogs.com/svg.latex?y=f(0)+\frac{-0-5}{2\sqrt{0+3}(0+1)^2}.(x-0)=\sqrt{3}-\frac{5}{2\sqrt{3}}x=\sqrt{3}-\frac{5\sqrt{3}}{6}x">. Аналогично за <img src="https://latex.codecogs.com/svg.latex?a=0^+">, т.е. т.<img src="https://latex.codecogs.com/svg.latex?(0^+,\sqrt{3})">:<br><img src="https://latex.codecogs.com/svg.latex?y=f(0)+\frac{0+7}{2(1-0)^2\sqrt{0+3}}.(x-0)=\sqrt{3}+\frac{7}{2\sqrt{3}}x=\sqrt{3}+\frac{7\sqrt{3}}{6}x">.
 
 Въпреки, че <img src="https://latex.codecogs.com/svg.latex?x_0=-2"> не е инфлексна точка, може да я считаме за „специална“, защото в т.<img src="https://latex.codecogs.com/svg.latex?(-2,-1),\Gamma_{f(x)}"> започва да намалява още по-бързо (сменя „скоростта/порядъка“ на намаляване).
 
-За <img src="https://latex.codecogs.com/svg.latex?a=-2^-:y=f(-2)+\frac{-1}{2(-(-2)-1)^{\frac{3}{2}}}.(x-(-2))=\\=-1-\frac{1}{2.1^{\frac{3}{2}}}.(x+2)=-\frac{x}{2}-2.">
+За <img src="https://latex.codecogs.com/svg.latex?a=-2^-:y=f(-2)+\frac{-1}{2(-(-2)-1)^{\frac{3}{2}}}.(x-(-2))=">
 
-За <img src="https://latex.codecogs.com/svg.latex?a=-2^+:y=f(-2)+\frac{-(-2)-5}{2\sqrt{-2+3}(-2+1)^2}.(x-(-2))=\\=-1-\frac{3}{2\sqrt{1}(-1)^2}(x+2)=-1-\frac{3x+6}{2}=-\frac{3}{2}x=4.
+<img src="https://latex.codecogs.com/svg.latex?=-1-\frac{1}{2.1^{\frac{3}{2}}}.(x+2)=-\frac{x}{2}-2.">
+
+За <img src="https://latex.codecogs.com/svg.latex?a=-2^+:y=f(-2)+\frac{-(-2)-5}{2\sqrt{-2+3}(-2+1)^2}.(x-(-2))=">
+
+<img src="https://latex.codecogs.com/svg.latex?=-1-\frac{3}{2\sqrt{1}(-1)^2}(x+2)=-1-\frac{3x+6}{2}=-\frac{3}{2}x=4.
