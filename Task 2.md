@@ -67,3 +67,12 @@
 <img src="https://latex.codecogs.com/svg.latex?\underline{x\in{[-0{,1})}}:f''(x)=\frac{(x+7)'.2(1-x)^2\sqrt{x+3}-2(x+7)\big((1-x)^2\sqrt{x+3}\big)'}{4(1-x)^4(x+3)}=\\=\frac{2(1-x)^2\sqrt{x+3}-2(x+7)\bigg(2(1-x).(-1)+\frac{(1-x)^2}{2\sqrt{x+3}}\bigg)}{4(1-x)^4(x+3)}=\\=\frac{2(1-x)^2\sqrt{x+3}-(x+7)\bigg(\frac{-4(1-x)\sqrt{x+3}+(1-x)^2}{2\sqrt{x+3}}\bigg)}{4(1-x)^4.(x+3)}=\\=\frac{(1-x)^2\sqrt{x+3}-(x+7)\bigg(-2(1-x)+\frac{(1-x)^2}{2\sqrt{x+3}}\bigg)}{2(1-x)^4(x+3)}=\\=-\frac{3x^2+42X+83}{4(x-1)^3(x+3)^{\frac{3}{2}}}>0\Rightarrow{f(x)}"><br> е изпъкнала в интервала <img src="https://latex.codecogs.com/svg.latex?[0,1)">
 
 <img src="https://latex.codecogs.com/svg.latex?\underline{x\in{(1{,+\infty})}}:f''(x)=-\frac{3x^2+30x+59}{4(x+1)^3.(x+3)^{\frac{3}{2}}}<0\Rightarrow{f(x)}"> е вдлъбната в <img src="https://latex.codecogs.com/svg.latex?(1,+\infty)">
+
+![](https://github.com/andy489/Data_Structures_and_Algorithms_CPP/blob/master/assets/Graphic%2005.png)
+
+<img src="https://latex.codecogs.com/svg.latex?\boxed{7.}"> „Специални“ точки и уравнение на допирателна във всяка от тях:
+
+<img src="https://latex.codecogs.com/svg.latex?f(0)=\sqrt{3}"> и <img src="https://latex.codecogs.com/svg.latex?0"> e инфлексна точка, тъй като <img src="https://latex.codecogs.com/svg.latex?f'(x)"> сменя знака си в <img src="https://latex.codecogs.com/svg.latex?x_0=0">.
+
+Правата с уравнение <img src="https://latex.codecogs.com/svg.latex?y=f(a)+f'(a)(x-a)"> e допирателна към <img src="https://latex.codecogs.com/svg.latex?\Gamma_{f(x)}">  в точката <img src="https://latex.codecogs.com/svg.latex?\big(a,f(a)\big)">.
+
