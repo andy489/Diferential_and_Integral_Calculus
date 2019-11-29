@@ -49,3 +49,5 @@
 <img src="https://latex.codecogs.com/svg.latex?\underline{x\in{[0,1)}}:f(x)=\frac{\sqrt{1+x+2}}{1-x}=\frac{\sqrt{x+3}}{1-x}">.
 
 <img src="https://latex.codecogs.com/svg.latex?f'(x)=\frac{(\sqrt{x+3})'(1-x)-(\sqrt{x+3})(1-x)'}{(1-x)^2}=\frac{\frac{1-x}{2\sqrt{x+3}}\sqrt{x+3}}{(1-x)^2}=\\=\frac{1-x+2x+6}{2(1-x)^2\sqrt{x+3}}=\frac{x+7}{2(1-x)^2\sqrt{x+3}}>0\Rightarrow{f(x)}"><br>е растяща в <img src="https://latex.codecogs.com/svg.latex?[0,1)">
+
+<img src="https://latex.codecogs.com/svg.latex?\underline{x\in{(1,+\infty)}}:f'(x)=\frac{x+7}{2(1-x)^2\sqrt{x+3}}>09\Rightarrow{f(x)}"><br>е растяща в <img src="https://latex.codecogs.com/svg.latex?(1,+\infty)">.
