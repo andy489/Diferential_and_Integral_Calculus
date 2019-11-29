@@ -27,4 +27,5 @@
 <img src="https://latex.codecogs.com/svg.latex?\lim_{x\rightarrow{{1^+}}}f(x)\sim{\frac{\sqrt{2}}{-0}}\sim{-\infty}">.
 
 <img src="https://latex.codecogs.com/svg.latex?\boxed{4.}"> Асимптоти:<br>
-- a) Наклонени: <img src="https://latex.codecogs.com/svg.latex?y=kx+n">, където <img src="https://latex.codecogs.com/svg.latex?k=lim_{x\rightarrow{\pm\infty}}{\frac{f(x)}{x}}=lim_{x\rightarrow{\pm\infty}}{x\rightarrow{\pm\infty}}(f(x)-kx)=lim_{x\rightarrow{\pm\infty}}f(x)=0\Rightarrow"> абсцисата е наклонена асимптота в lim_{x\rightarrow{\pm\infty}}
+- a) Наклонени: <img src="https://latex.codecogs.com/svg.latex?y=kx+n">, където <img src="https://latex.codecogs.com/svg.latex?k=\lim_{x\rightarrow{\pm\infty}}{\frac{f(x)}{x}}=\lim_{x\rightarrow{\pm\infty}}\frac{\sqrt{1+|x+2|}}{x(1-|x|)}\sim\frac{\sqrt{x}}{x^2}\sim{0}\Rightarrow{y=n}">.<br><img src="https://latex.codecogs.com/svg.latex?n=\lim_{x\rightarrow{\pm\infty}}(f(x)-kx)=\lim_{x\rightarrow{\pm\infty}}f(x)=0\Rightarrow"> абсцисата е наклонена асимптота в <img src="https://latex.codecogs.com/svg.latex?-\infty"> и <img src="https://latex.codecogs.com/svg.latex?+\infty">. От вече направените изчисления знаем, че съществуват две вертикални асимптоти: <img src="https://latex.codecogs.com/svg.latex?g_1:x-=1"> и <img src="https://latex.codecogs.com/svg.latex?g_2:x=1">.
+-
