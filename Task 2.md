@@ -60,4 +60,6 @@
 
 <img src="https://latex.codecogs.com/svg.latex?=\frac{3}{4}.\frac{1}{(-x-1)^{\frac{5}{2}}}(-1)=-\frac{3}{4}.\frac{1}{(-x-1)^{\frac{5}{2}}}<0\Rightarrow{f(x)}"> е вдлъбната в <img src="https://latex.codecogs.com/svg.latex?(-\infty{,-2})">.
 
+<img src="https://latex.codecogs.com/svg.latex?\underline{x\in{[-2{,-1})}}:f''(x)=\frac{1}{2}\bigg(\frac{-x-5}{\sqrt{x+3}(x+1)^2}\bigg)=\\=\frac{1}{2}.\frac{(-1).\sqrt{x+3}(x+1)^2+(x+5).(\sqrt{x+3}(x+1)^2)'}{(x+3)(x+1)^4}=\\=\frac{-\sqrt{x+3}(x+1)^2+(x+5)\bigg(\frac{(1+0)(x+1)^2}{2\sqrt{x+3}}+2(1+0)(x+1)\sqrt{x+3}\bigg)}{2(x+1)^4(x+3)}=\\=\frac{3x^2+30x+59}{4(x+1)^3.(x+3)^{\frac{3}{2}}}<0\Rightarrow{f(x)}"> е вдлъбната в <img src="https://latex.codecogs.com/svg.latex?[-2,-1)">.
+
 
