@@ -56,5 +56,5 @@
 
 <img src="https://latex.codecogs.com/svg.latex?\boxed{6.}"> Вдлъбнатост/изпъкналост на функцията <img src="https://latex.codecogs.com/svg.latex?f(x)"> (знак на <img src="https://latex.codecogs.com/svg.latex?f''(x)">):<br>
 
-<img src="https://latex.codecogs.com/svg.latex?\underline{x\in{(-\infty{,-2})}}:f''(x)=-\frac{1}{2}.\bigg(\frac{1}{(-x-1)^{\frac{3}{2}}}\bigg)'=\\=-\frac{1}{2}.\bigg(\frac{-1'.(-x-1)^{\frac{3}{2}}-1\big((-x-1)^{\frac{3}{2}}\big)'}{-(x+1)^3}\bigg)=-\frac{1}{2}.(-1).\frac{3}{2}\frac{(-x-1)^{\frac{3}{2}-1}.(-x-1)'}{-(x+1)^3}=\\=\frac{3}{4}.\frac{1}{(-x-1)^{\frac{5}{2}}}.(-1)=-\frac{3}{4}.\frac{1}{(-x-1)^{\frac{5}{2}}<0\Rightarrow{f(x)}"><br>е вдлъбната в <img src="https://latex.codecogs.com/svg.latex?(-\infty{,-2})">.
+<img src="https://latex.codecogs.com/svg.latex?\underline{x\in{(-\infty{,-2})}}:f''(x)=-\frac{1}{2}.\bigg(\frac{1}{(-x-1)^{\frac{3}{2}}}\bigg)'=\\=-\frac{1}{2}.\bigg(\frac{-1'.(-x-1)^{\frac{3}{2}}-1\big((-x-1)^{\frac{3}{2}}\big)'}{-(x+1)^3}\bigg)=-\frac{1}{2}.(-1).\frac{3}{2}\frac{(-x-1)^{\frac{3}{2}-1}.(-x-1)'}{-(x+1)^3}=">\\=\frac{3}{4}.\frac{1}{(-x-1)^{\frac{5}{2}}}.(-1)=-\frac{3}{4}.\frac{1}{(-x-1)^{\frac{5}{2}}<0\Rightarrow{f(x)}"><br>е вдлъбната в <img src="https://latex.codecogs.com/svg.latex?(-\infty{,-2})">.
 
