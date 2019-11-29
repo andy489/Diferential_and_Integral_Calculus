@@ -88,4 +88,4 @@
 
 За <img src="https://latex.codecogs.com/svg.latex?a=-2^+:y=f(-2)+\frac{-(-2)-5}{2\sqrt{-2+3}(-2+1)^2}.(x-(-2))=">
 
-<img src="https://latex.codecogs.com/svg.latex?=-1-\frac{3}{2\sqrt{1}(-1)^2}(x+2)=-1-\frac{3x+6}{2}=-\frac{3}{2}x=4.
+<img src="https://latex.codecogs.com/svg.latex?=-1-\frac{3}{2\sqrt{1}(-1)^2}(x+2)=-1-\frac{3x+6}{2}=-\frac{3}{2}x=4">.
