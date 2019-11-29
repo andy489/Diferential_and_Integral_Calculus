@@ -27,5 +27,12 @@
 <img src="https://latex.codecogs.com/svg.latex?\lim_{x\rightarrow{{1^+}}}f(x)\sim{\frac{\sqrt{2}}{-0}}\sim{-\infty}">.
 
 <img src="https://latex.codecogs.com/svg.latex?\boxed{4.}"> Асимптоти:<br>
-- a) Наклонени: <img src="https://latex.codecogs.com/svg.latex?y=kx+n">, където <img src="https://latex.codecogs.com/svg.latex?k=\lim_{x\rightarrow{\pm\infty}}{\frac{f(x)}{x}}=\lim_{x\rightarrow{\pm\infty}}\frac{\sqrt{1+|x+2|}}{x(1-|x|)}\sim\frac{\sqrt{x}}{x^2}\sim{0}\Rightarrow{y=n}">.<br><img src="https://latex.codecogs.com/svg.latex?n=\lim_{x\rightarrow{\pm\infty}}(f(x)-kx)=\lim_{x\rightarrow{\pm\infty}}f(x)=0\Rightarrow"> абсцисата е наклонена асимптота в <img src="https://latex.codecogs.com/svg.latex?-\infty"> и <img src="https://latex.codecogs.com/svg.latex?+\infty">. От вече направените изчисления знаем, че съществуват две вертикални асимптоти: <img src="https://latex.codecogs.com/svg.latex?g_1:x-=1"> и <img src="https://latex.codecogs.com/svg.latex?g_2:x=1">.
--
+- a) Наклонени: <img src="https://latex.codecogs.com/svg.latex?y=kx+n">, където <img src="https://latex.codecogs.com/svg.latex?k=\lim_{x\rightarrow{\pm\infty}}{\frac{f(x)}{x}}=\lim_{x\rightarrow{\pm\infty}}\frac{\sqrt{1+|x+2|}}{x(1-|x|)}\sim\frac{\sqrt{x}}{x^2}\sim{0}\Rightarrow{y=n}">.<br><img src="https://latex.codecogs.com/svg.latex?n=\lim_{x\rightarrow{\pm\infty}}(f(x)-kx)=\lim_{x\rightarrow{\pm\infty}}f(x)=0\Rightarrow"> абсцисата е наклонена асимптота в <img src="https://latex.codecogs.com/svg.latex?-\infty"> и <img src="https://latex.codecogs.com/svg.latex?+\infty">. 
+- б) От вече направените изчисления знаем, че съществуват две вертикални асимптоти: <img src="https://latex.codecogs.com/svg.latex?g_1:x-=1"> и <img src="https://latex.codecogs.com/svg.latex?g_2:x=1">.
+
+<img src="https://latex.codecogs.com/svg.latex?\boxed{5.}"> Поведение на функцията <img src="https://latex.codecogs.com/svg.latex?f(x)"> и екстремуми (знак на <img src="https://latex.codecogs.com/svg.latex?f'(x)">):
+
+![](https://github.com/andy489/Data_Structures_and_Algorithms_CPP/blob/master/assets/Graphic%2003.png)
+
+<img src="https://latex.codecogs.com/svg.latex?x\in{(-\infty{,-2})}:f(x)=\frac{\sqrt{1-x-2}}{1+x}=\frac{1}{-\sqrt{-1-x}}=\frac{-1}{\sqrt{-(x+1)}}"><br>
+<img src="https://latex.codecogs.com/svg.latex?f'(x)=\frac{(-1)'.\sqrt{-(x+1)}-(-1).(\sqrt{-(x+1)})'}{-(x+1)}=\frac{(-(x+1)^{\frac{1}{2}})'}{-(x+1)}=\frac{-1}{2(-x-1)^{\frac{3}{2}}}<0\Rightarrow{f(x)}"> е намаляваща в <img src="https://latex.codecogs.com/svg.latex?(-\infty{,-2})">.
