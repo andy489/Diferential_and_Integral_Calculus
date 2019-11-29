@@ -42,4 +42,4 @@
 
 <img src="https://latex.codecogs.com/svg.latex?x\in{[-2{,-1})}:f(x)=\frac{\sqrt{1+x+2}}{1-(-x)}=\frac{\sqrt{x+3}}{x+1}">.
 
-<img src="https://latex.codecogs.com/svg.latex?f'(x)=\frac{(\sqrt{x+3})'.(x+1)-sqrt{x+3}.(x+1)'}{(x+1)^2}=\frac{\frac{1}{2}.\frac{x+1}{\sqrt{x+3}}-\sqrt{x-3}}{(x+1)^2}=\\=\frac{x+1-2(x+3)}{2\sqrt{x+3}(x+1)^2}=\frac{-x-5}{2.\sqrt{x+3}(x+1)^2}<0\Rightarrow{f(x)}"> е намаляваща в <img src="https://latex.codecogs.com/svg.latex?[-2,-1)">
+<img src="https://latex.codecogs.com/svg.latex?f'(x)=\frac{(\sqrt{x+3})'.(x+1)-sqrt{x+3}.(x+1)'}{(x+1)^2}=\frac{\frac{1}{2}.\frac{x+1}{\sqrt{x+3}}-\sqrt{x-3}}{(x+1)^2}=\frac{x+1-2(x+3)}{2\sqrt{x+3}(x+1)^2}=\frac{-x-5}{2.\sqrt{x+3}(x+1)^2}<0\Rightarrow{f(x)}"> е намаляваща в <img src="https://latex.codecogs.com/svg.latex?[-2,-1)">
