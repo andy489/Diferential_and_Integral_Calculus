@@ -25,3 +25,6 @@
 
 <img src="https://latex.codecogs.com/svg.latex?\lim_{x\rightarrow{{1^-}}}f(x)\sim{\frac{\sqrt{2}}{+0}}\sim{+\infty}">;
 <img src="https://latex.codecogs.com/svg.latex?\lim_{x\rightarrow{{1^+}}}f(x)\sim{\frac{\sqrt{2}}{-0}}\sim{-\infty}">.
+
+<img src="https://latex.codecogs.com/svg.latex?\boxed{4.}"> Асимптоти:<br>
+- a) Наклонени: <img src="https://latex.codecogs.com/svg.latex?y=kx+n">, където <img src="https://latex.codecogs.com/svg.latex?k=lim_{x\rightarrow{\pm\infty}}{\frac{f(x)}{x}}=lim_{x\riglim_{x\rightarrow{\pm\infty}}m/svg.latex?n=lim_{x\rightarrow{\pm\infty}}(f(x)-kx)=lim_{x\rightarrow{\pm\infty}}f(x)=0\Rightarrow"> абсцисата е наклонена асимптота в lim_{x\rightarrow{\pm\infty}}
