@@ -35,4 +35,4 @@
 ![](https://github.com/andy489/Data_Structures_and_Algorithms_CPP/blob/master/assets/Graphic%2003.png)
 
 <img src="https://latex.codecogs.com/svg.latex?x\in{(-\infty{,-2})}:f(x)=\frac{\sqrt{1-x-2}}{1+x}=\frac{1}{-\sqrt{-1-x}}=\frac{-1}{\sqrt{-(x+1)}}"><br>
-<img src="https://latex.codecogs.com/svg.latex?f'(x)=\frac{(-1)'.\sqrt{-(x+1)}-(-1).(\sqrt{-(x+1)})'}{-(x+1)}=\frac{(-(x+1)^{\frac{1}{2}})'}{-(x+1)}=\frac{-1}{2(-x-1)^{\frac{3}{2}}}<0\Rightarrow{f(x)}"> е намаляваща в <img src="https://latex.codecogs.com/svg.latex?(-\infty{,-2})">.
+<img src="https://latex.codecogs.com/svg.latex?f'(x)=\frac{(-1)'.\sqrt{-(x+1)}-(-1).(\sqrt{-(x+1)})'}{-(x+1)}=\frac{(-(x+1)^{\frac{1}{2}})'}{-(x+1)}=\frac{-1}{2(-x-1)^{\frac{3}{2}}}<0"><br><img src="https://latex.codecogs.com/svg.latex?\Rightarrow{f(x)}"> е намаляваща в <img src="https://latex.codecogs.com/svg.latex?(-\infty{,-2})">.
