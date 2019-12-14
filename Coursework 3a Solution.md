@@ -18,7 +18,11 @@
 <img src="https://latex.codecogs.com/svg.latex?\bigg|\sum_{k=n+1}^{\infty}\frac{(-1)^{k-1}}{k^2.3^{3k+1}}\bigg|=|a_{n+1}-a_{n+2}+a_{n+3}-a_{n+4}+\cdots|="><br><img src="https://latex.codecogs.com/svg.latex?=|a_{n+1}-(\underbrace{a_{n+2}-a_{n+3}}_{>0})-(\underbrace{a_{n+4}-a_{n+5}}_{>0})-\cdots|">, където 
 <img src="https://latex.codecogs.com/svg.latex?a_n=\frac{1}{n^2.3^{3n+1}}">.
 
-Тъй като редицата <img src="https://latex.codecogs.com/svg.latex?a_n"> е монотонна <img src="https://latex.codecogs.com/svg.latex?\{a_n\}\Rightarrow{\bigg|\sum_{k=n+1}^{\infty}\frac{(-1)^{k-1}}{k^2.3^{3k+1}}\bigg|<|a_{n+1}|=\frac{1}{(n+1)^2.3^{3n+4}}}<\frac{1}{10^{4}}">.
+Тъй като редицата <img src="https://latex.codecogs.com/svg.latex?a_n"> е монотонна <img src="https://latex.codecogs.com/svg.latex?\{a_n\}\searrow{0}\Rightarrow{\bigg|\sum_{k=n+1}^{\infty}\frac{(-1)^{k-1}}{k^2.3^{3k+1}}\bigg|<|a_{n+1}|=\frac{1}{(n+1)^2.3^{3n+4}}}<\frac{1}{10^{4}}">.
+
+<img src="https://latex.codecogs.com/svg.latex?(n+1)^2.3^{3n+4}>10^4">. За <img src="https://latex.codecogs.com/svg.latex?n=2:{\;}9.3^{10}=531441>10{\;}000\Rightarrow">
+
+<img src="https://latex.codecogs.com/svg.latex?\int_{0}^{\frac{1}{3}}\frac{ln(1+x^3)}{x}dx\sim{\frac{1}{3^4}}-\frac{1}{4.3^7}=\frac{1}{81}\bigg(1-\frac{1}{108}\bigg)=\frac{107}{81.108}=\underline{0,0122}31367...">. 
 
 
 
